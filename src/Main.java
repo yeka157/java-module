@@ -88,5 +88,16 @@ public class Main {
 //        System.out.println(results9 ? strArr[0] + " and " + strArr[1] + " are anagram" : strArr[0] + " and " + strArr[1] + " are not anagram");
 
 //        Task - 10
+        System.out.println("Enter the length of array");
+        int length = input.nextInt();
+        int[] array10 = new int[length];
+
+        System.out.println("Enter " + length + " numbers");
+        for (int i = 0; i < length; i++) {
+            array10[i] = input.nextInt();
+        }
+        SecondSmallest num10 = new SecondSmallest();
+        int results10 = num10.secondSmallest(array10);
+        System.out.println("Second smallest number in the array is " + results10);
     }
 }
