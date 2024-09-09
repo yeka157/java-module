@@ -1,5 +1,7 @@
 import day3.*;
 import day4.*;
+import day6.*;
+import day6.ReverseString;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -101,5 +103,33 @@ public class Main {
 //        int results10 = num10.secondSmallest(array10);
 //        System.out.println("Second smallest number in the array is " + results10);
 
+//        Array Rotation
+
+//        ArrayRotation arr = new ArrayRotation();
+//        arr.rotateArray();
+
+//        ArrayDuplicates arr = new ArrayDuplicates();
+//        arr.containDuplicates();
+
+//        DuplicateRemove arr = new DuplicateRemove();
+//        arr.removeDuplicate();
+
+//        ArraySort arr = new ArraySort();
+//        arr.sortArray();
+
+//        RemoveOccurence arr = new RemoveOccurence();
+//        arr.removeOccurence();
+
+
+//        ReverseString str = new ReverseString();
+//        str.reverseString();
+
+
+//        FindDuplicate find = new FindDuplicate();
+//        find.findDuplicate();
+
+
+        Temperature temp = new Temperature();
+        temp.waitForWarm();
     }
 }
